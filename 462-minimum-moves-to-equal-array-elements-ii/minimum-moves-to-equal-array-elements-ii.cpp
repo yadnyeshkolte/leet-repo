@@ -15,7 +15,7 @@ public:
         int n = nums.size();
         int i=index;
         int j=index;
-        int count = 0;
+        long long count = 0;
         while(i>=0){
             count += nums[index]-nums[i];
             i--;
